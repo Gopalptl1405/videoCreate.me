@@ -1,0 +1,33 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color: azure;
+    border-radius: 25px;
+}
+.assigment{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+button{
+    background-color: blue;
+    border-radius: 15px;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
